@@ -9,3 +9,5 @@ react js is a javaScript library its not a framwork.
 
 the answer is because of we give the same framwork power to the react js by adding extarnel links and libraries
 
+you can make single page application with react and mobile application with react native
+
