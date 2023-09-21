@@ -1,13 +1,6 @@
-# react-js-course
-react-js course for beginners:
+# redux tool kit
 
-***what is react js***
+# redux is used for state management
+# we can access or chnage state from anyware
 
-react js is a javaScript library its not a framwork.
-
-***why we use react js instead of vue js or other framworks**
-
-the answer is because of we give the same framwork power to the react js by adding extarnel links and libraries
-
-you can make single page application with react and mobile application with react native
 
