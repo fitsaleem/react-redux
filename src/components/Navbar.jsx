@@ -35,9 +35,10 @@ const Navbar = () => {
               Brand
             </div>
             <div className="flex items-center justify-end w-full">
-              <button
+              <Link
                 onClick={() => setCartOpen(!cartOpen)}
                 className="text-gray-600 focus:outline-none mx-4 sm:mx-0 relative overflow-hidden"
+                to={"./card"}
               >
                 
                 <svg
@@ -52,11 +53,11 @@ const Navbar = () => {
                   <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
               
                 </svg>
-                <span className="overflow-hidden rounded-full bg-red-600 w-4 h-4 text-white font-mono text-sm absolute  bottom-2">
+                <span className="overflow-hidden rounded-full bg-red-600 w-4 h-4 text-white font-mono text-sm text-center absolute  bottom-2 right-0">
                   {items.length}
                    </span>
                 {" "}
-              </button>
+              </Link>
               <div className="flex sm:hidden">
                 <button
                   onClick={() => setIsOpen(!isOpen)}

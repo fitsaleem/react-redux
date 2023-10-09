@@ -7,6 +7,7 @@ import { useDispatch } from "react-redux";
 
 
 const Products = () => {
+  
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
